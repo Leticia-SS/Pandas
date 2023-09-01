@@ -1,9 +1,75 @@
 body{
   background-color: honeydew;
-  font-family: 'Source Code';
 }
 
 @font-face{
   font-family: 'Source Code';
   src: url(SourceCode.ttf);
+}
+
+header{
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  background-color: springgreen;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: darkslategray;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+
+li{
+  width: 150px;
+  height: 80px;
+  font-family: 'Source Code';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  border-radius: 15px;
+
+
+}
+
+
+li:hover{
+  color: white;
+  background-color: palegreen;
+  height: 110px;
+  width: 160px;
+  transition: 200ms;
+  font-size: 25px;
+}
+
+a{
+  text-decoration: none;
+  color: darkslategray;
+  vertical-align: middle;
+}
+
+a:hover{
+  color: white;
+  font-size: 25px;
 }
